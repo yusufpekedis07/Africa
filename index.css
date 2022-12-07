@@ -55,12 +55,9 @@ nav{
 }
 
 .icon{
-    font-size: 30   px;
+    font-size: 30px;
 
 }
-/*
-ROW*/
-
 .row{
     display: flex;
     justify-content: space-around;
@@ -85,6 +82,7 @@ ROW*/
     position: absolute;
     top: 0;
     left: 0;
+    mix-blend-mode: screen;
 
 }
 
@@ -95,5 +93,34 @@ ROW*/
     position: absolute;
     top: 0;
     left: 0;
+}
 
+
+
+
+.col-2 h1{
+    font-size: 3rem;
+    color: #42220c;
+}
+
+.col-2 span{
+    font-size: 6rem;
+    margin-left: 80px;
+    line-height: 60px;
+    margin: 20px;
+}
+
+.col-2 p{
+    margin: 15px 0;
+    font-weight: 400;
+}
+
+.btn{
+    display: inline-block;
+    color: #fff;
+    background-color: #a5531d;
+    padding: 8px 20px;
+    border-radius: 30px;
+    margin-top: 5px;
+    margin-left: 75%;
 }
