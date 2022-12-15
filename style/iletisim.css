@@ -18,15 +18,22 @@ ul li{
 }
 
 .container{
-    max-width: 1300px;
+    max-width: 100%;
     margin: auto;
-    padding-left: 50px;
+    padding-left: 10px;
     padding-right: 50px;
 }
 
 .header{
     width: 100%;
     height: 20vh;
+    grid-area: header;
+}
+main{
+    grid-area: main;
+}
+footer{
+    grid-area: footer;
 }
 
 .navbar{
