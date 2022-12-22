@@ -52,9 +52,10 @@
             </div>   
         </div> 
     </div> 
-     <main>
+    <main id="ana">
       <section>
       <img src="img/61e7bb8d4e3fe0098c616c06.webp">
+      <h2></h2>
       </section>
       <section>
    <img src="img/africansafaris-20210326112538.jpg">
@@ -68,16 +69,17 @@
      </main>
     <style>
         .sidenav {
-          height: 100%;
+          height: 90%;
           width: 0; /*Genişliği javascriptle değiştir*/
           position: fixed;
           z-index: 1;
-          margin-top: 55px;
+          margin-top: 155px;
           left: 15;
           background-color: #111;
           overflow-x: hidden; /*Yatay kaydırmayı devre dışı bırak */
           transition: 0.5s;/* Sidenav'da kaymaya 0,5 saniye geçiş efekti */
           padding-top: 60px; /*İçeriği üstten 60 piksel yerleştirin */
+          
         }
         
         .sidenav a {
@@ -126,12 +128,17 @@
         <script>
         function openNav() {
           document.getElementById("YanMenu").style.width = "250px";
+          document.getElementById("ana").style.marginLeft ="350px" ;
+          document.getElementById("ana").style.transition ="0.5s ease" ;
         }
         
         function closeNav() {
           document.getElementById("YanMenu").style.width = "0";
+          document.getElementById("ana").style.marginLeft ="0" ;
+          document.getElementById("ana").style.transition ="1s ease" ;
         }
         </script> 
    
 </body>
 </html>
+ 
